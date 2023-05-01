@@ -3,6 +3,7 @@ from flask_cors import CORS,cross_origin
 import pickle
 import pandas as pd
 import numpy as np
+import matplotlib as mpl
 
 app=Flask(__name__)
 cors=CORS(app)
