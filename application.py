@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib as mpl
 mpl.style.use('ggplot')
 
+
 app=Flask(__name__)
 cors=CORS(app)
 model=pickle.load(open('notebooks/LinearRegressionModel.pkl','rb'))
