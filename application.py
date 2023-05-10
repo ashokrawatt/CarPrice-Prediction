@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 import numpy as np
 import matplotlib as mpl
-mpl.style.use('ggplot')
+
 
 
 app=Flask(__name__)
